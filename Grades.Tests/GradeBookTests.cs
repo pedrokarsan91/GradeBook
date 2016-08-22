@@ -1,5 +1,4 @@
-﻿using Grades;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Grades.Tests
 {

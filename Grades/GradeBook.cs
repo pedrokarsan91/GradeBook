@@ -5,12 +5,43 @@ namespace Grades
 {
     public class GradeBook
     {
+        // Field
         private List<float> grades = new List<float>();
 
-        public GradeBook()
+        public event NameChangedDelegate NameChanged;
+
+        private string name;
+
+        //Property
+        public string Name
         {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                if(!String.IsNullOrEmpty(value))
+                {
+                    if(name != value)
+                    {
+                        NameChangedEventArgs args = new NameChangedEventArgs();
+                        args.ExistingName = name;
+                        args.NewName = value;
+                        NameChanged(this, args);
+                    }
+                    name = value;
+                }
+            }
         }
 
+        //Constructor 
+        public GradeBook()
+        {
+            name = "Empty";
+        }
+
+        //Method
         public void AddGrade(float grade)
         {
             grades.Add(grade);
