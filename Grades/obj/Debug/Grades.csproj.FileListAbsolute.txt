@@ -9,3 +9,4 @@ C:\Dev\Grades\Grades\bin\Debug\Grades.exe
 C:\Dev\Grades\Grades\bin\Debug\Grades.pdb
 C:\Dev\Grades\Grades\obj\Debug\Grades.exe
 C:\Dev\Grades\Grades\obj\Debug\Grades.pdb
+C:\Dev\Grades\Grades\obj\Debug\Grades.csprojResolveAssemblyReference.cache

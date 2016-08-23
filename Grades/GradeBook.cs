@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Grades
 {
@@ -11,6 +12,14 @@ namespace Grades
         public event NameChangedDelegate NameChanged;
 
         private string name;
+
+        public void WriteGrades(TextWriter destination)
+        {
+            for (int i = 0; i < grades.Count; i++)
+            {
+                destination.WriteLine(grades[i]);
+            }
+        }
 
         //Property
         public string Name
