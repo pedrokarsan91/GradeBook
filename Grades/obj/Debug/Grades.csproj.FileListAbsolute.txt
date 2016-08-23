@@ -4,3 +4,8 @@ C:\Users\Pedro\Desktop\Grades\Grades\bin\Debug\Grades.pdb
 C:\Users\Pedro\Desktop\Grades\Grades\obj\Debug\Grades.csprojResolveAssemblyReference.cache
 C:\Users\Pedro\Desktop\Grades\Grades\obj\Debug\Grades.exe
 C:\Users\Pedro\Desktop\Grades\Grades\obj\Debug\Grades.pdb
+C:\Dev\Grades\Grades\bin\Debug\Grades.exe.config
+C:\Dev\Grades\Grades\bin\Debug\Grades.exe
+C:\Dev\Grades\Grades\bin\Debug\Grades.pdb
+C:\Dev\Grades\Grades\obj\Debug\Grades.exe
+C:\Dev\Grades\Grades\obj\Debug\Grades.pdb
